@@ -188,11 +188,16 @@
   188  pwd
   189  ls
   190  pwd
+--------------------------------- start of hw1 ----------------------------------------------------------------
+1.
   191  mkdir Assignment1
   192  ls
   193  cd Assignment1
+2.
   194  echo $SHELL
+3.
   195  echo $HOME
+4.
   196  id -u
   197  groups
   198  groups username
@@ -203,6 +208,7 @@
   203  ls
   204  cd Assignment1
   205  ls
+5.
   206  chmod u-w Assignment1/myDir
   207  cd myDir
   208  chmod u-w
@@ -214,6 +220,7 @@
   214  ls
   215  ls -l
   216  cd ..
+6.
   217  mkdir myDir2
   218  cd ..
   219  ls
@@ -221,6 +228,7 @@
   221  mkdir myDir3
   222  ls
   223  cd myDir2
+7.
   224  touch myFile.txt
   225  mv myFile.txt myDir3
   226  ls
@@ -261,10 +269,13 @@
   261  ls
   262  cd myDir3
   263  ls
+8.
   264  free -m
   265  man free
+9.
   266  cat /etc/os-release
   267  cd ..
+10.
   268  ls -l /etc/os-release
   269  pwd
   270  ls
